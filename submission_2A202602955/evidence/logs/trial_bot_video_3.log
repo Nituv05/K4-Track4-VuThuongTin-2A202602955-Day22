@@ -1,0 +1,10 @@
+[nạp mô hình] detector=yolo26n.pt imgsz=640 tracker=botsort
+              tracker này dùng Re-ID: osnet_x0_25_msmt17.pt (tự tải nếu chưa có)
+/Users/tinvu/Documents/LAB_VINUNI/K4-Track4-VuThuongTin-2A202602955-Day22/.venv/lib/python3.12/site-packages/boxmot/appearance/reid_model_factory.py:158: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(weight_path, map_location=torch.device("cpu"))
+[32m2026-10-09 11:27:36.021[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m207[0m - [32m[1mSuccessfully loaded pretrained weights from "osnet_x0_25_msmt17.pt"[0m
+[32m2026-10-09 11:27:36.022[0m | [33m[1mWARNING [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m211[0m - [33m[1mThe following layers are discarded due to unmatched keys or layer size: ('classifier.weight', 'classifier.bias')[0m
+
+[video_3] tracker=botsort conf=0.3 iou=0.5 -> 150 frame trong 132.9s (1.1 FPS)
+  File nộp bài: runs/trials/botsort_c030_i050/video_3.txt
+  Video xem thử: runs/trials/botsort_c030_i050/video_3_preview.mp4

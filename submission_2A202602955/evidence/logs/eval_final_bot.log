@@ -1,0 +1,94 @@
+Đang chấm video luyện:
+  /Users/tinvu/Documents/LAB_VINUNI/K4-Track4-VuThuongTin-2A202602955-Day22/.venv/bin/python -c import runpy, sys; import numpy as np; np.float = getattr(np, 'float', float); np.int = getattr(np, 'int', int); np.bool = getattr(np, 'bool', bool); script = sys.argv[1]; sys.argv = sys.argv[1:]; runpy.run_path(script, run_name='__main__') /Users/tinvu/Documents/LAB_VINUNI/K4-Track4-VuThuongTin-2A202602955-Day22/TrackEval/scripts/run_mot_challenge.py --GT_FOLDER /Users/tinvu/Documents/LAB_VINUNI/K4-Track4-VuThuongTin-2A202602955-Day22/TrackEval/data/gt/mot_challenge --TRACKERS_FOLDER /Users/tinvu/Documents/LAB_VINUNI/K4-Track4-VuThuongTin-2A202602955-Day22/TrackEval/data/trackers/mot_challenge --BENCHMARK LAB21 --SPLIT_TO_EVAL train --SEQ_INFO video_1 --TRACKERS_TO_EVAL final_bot_c030_i050 --METRICS HOTA CLEAR Identity --USE_PARALLEL False --BREAK_ON_ERROR True
+
+<string>:1: FutureWarning: In the future `np.bool` will be defined as the corresponding NumPy scalar.
+Error importing BURST due to missing underlying dependency: No module named 'pycocotools'
+
+Eval Config:
+USE_PARALLEL         : False                         
+NUM_PARALLEL_CORES   : 8                             
+BREAK_ON_ERROR       : True                          
+RETURN_ON_ERROR      : False                         
+LOG_ON_ERROR         : /Users/tinvu/Documents/LAB_VINUNI/K4-Track4-VuThuongTin-2A202602955-Day22/TrackEval/error_log.txt
+PRINT_RESULTS        : True                          
+PRINT_ONLY_COMBINED  : False                         
+PRINT_CONFIG         : True                          
+TIME_PROGRESS        : True                          
+DISPLAY_LESS_PROGRESS : False                         
+OUTPUT_SUMMARY       : True                          
+OUTPUT_EMPTY_CLASSES : True                          
+OUTPUT_DETAILED      : True                          
+PLOT_CURVES          : True                          
+
+MotChallenge2DBox Config:
+PRINT_CONFIG         : True                          
+GT_FOLDER            : /Users/tinvu/Documents/LAB_VINUNI/K4-Track4-VuThuongTin-2A202602955-Day22/TrackEval/data/gt/mot_challenge
+TRACKERS_FOLDER      : /Users/tinvu/Documents/LAB_VINUNI/K4-Track4-VuThuongTin-2A202602955-Day22/TrackEval/data/trackers/mot_challenge
+OUTPUT_FOLDER        : None                          
+TRACKERS_TO_EVAL     : ['final_bot_c030_i050']       
+CLASSES_TO_EVAL      : ['pedestrian']                
+BENCHMARK            : LAB21                         
+SPLIT_TO_EVAL        : train                         
+INPUT_AS_ZIP         : False                         
+DO_PREPROC           : True                          
+TRACKER_SUB_FOLDER   : data                          
+OUTPUT_SUB_FOLDER    :                               
+TRACKER_DISPLAY_NAMES : None                          
+SEQMAP_FOLDER        : None                          
+SEQMAP_FILE          : None                          
+SEQ_INFO             : {'video_1': None}             
+GT_LOC_FORMAT        : {gt_folder}/{seq}/gt/gt.txt   
+SKIP_SPLIT_FOL       : False                         
+
+CLEAR Config:
+METRICS              : ['HOTA', 'CLEAR', 'Identity'] 
+THRESHOLD            : 0.5                           
+PRINT_CONFIG         : True                          
+
+Identity Config:
+METRICS              : ['HOTA', 'CLEAR', 'Identity'] 
+THRESHOLD            : 0.5                           
+PRINT_CONFIG         : True                          
+
+Evaluating 1 tracker(s) on 1 sequence(s) for 1 class(es) on MotChallenge2DBox dataset using the following metrics: HOTA, CLEAR, Identity, Count
+
+
+Evaluating final_bot_c030_i050
+
+    MotChallenge2DBox.get_raw_seq_data(final_bot_c030_i050, video_1)       0.0895 sec
+    MotChallenge2DBox.get_preprocessed_seq_data(pedestrian)                0.0615 sec
+    HOTA.eval_sequence()                                                   0.0820 sec
+    CLEAR.eval_sequence()                                                  0.0126 sec
+    Identity.eval_sequence()                                               0.0038 sec
+    Count.eval_sequence()                                                  0.0000 sec
+1 eval_sequence(video_1, final_bot_c030_i050)                            0.2509 sec
+
+All sequences for final_bot_c030_i050 finished in 0.25 seconds
+
+HOTA: final_bot_c030_i050-pedestrianHOTA      DetA      AssA      DetRe     DetPr     AssRe     AssPr     LocA      OWTA      HOTA(0)   LocA(0)   HOTALocA(0)
+video_1                            28.228    18.083    44.309    18.587    78.832    48.622    77.754    83.649    28.65     34.399    78.398    26.968    
+COMBINED                           28.228    18.083    44.309    18.587    78.832    48.622    77.754    83.649    28.65     34.399    78.398    26.968    
+
+CLEAR: final_bot_c030_i050-pedestrianMOTA      MOTP      MODA      CLR_Re    CLR_Pr    MTR       PTR       MLR       sMOTA     CLR_TP    CLR_FN    CLR_FP    IDSW      MT        PT        ML        Frag      
+video_1                            19.8      81.477    19.94     21.759    92.285    12.903    19.355    67.742    15.769    4043      14538     338       26        8         12        42        99        
+COMBINED                           19.8      81.477    19.94     21.759    92.285    12.903    19.355    67.742    15.769    4043      14538     338       26        8         12        42        99        
+
+Identity: final_bot_c030_i050-pedestrianIDF1      IDR       IDP       IDTP      IDFN      IDFP      
+video_1                            28.517    17.62     74.732    3274      15307     1107      
+COMBINED                           28.517    17.62     74.732    3274      15307     1107      
+
+Count: final_bot_c030_i050-pedestrianDets      GT_Dets   IDs       GT_IDs    
+video_1                            4381      18581     51        62        
+COMBINED                           4381      18581     51        62        
+
+Timing analysis:
+MotChallenge2DBox.get_raw_seq_data                                     0.0895 sec
+MotChallenge2DBox.get_preprocessed_seq_data                            0.0615 sec
+HOTA.eval_sequence                                                     0.0820 sec
+CLEAR.eval_sequence                                                    0.0126 sec
+Identity.eval_sequence                                                 0.0038 sec
+Count.eval_sequence                                                    0.0000 sec
+eval_sequence                                                          0.2509 sec
+Evaluator.evaluate                                                     0.8404 sec
+
+Đọc bảng phía trên: HOTA cân bằng phát hiện và giữ danh tính; MOTA phạt số lần đổi ID; IDF1 nhạy với track dài bị gán sai ID. Dùng các số này cho video_1 trong báo cáo. Không có bảng số cho video khác.

@@ -1,0 +1,38 @@
+{
+  "source": "/Users/tinvu/Downloads/data_lab21",
+  "lab_data": "/Users/tinvu/Documents/LAB_VINUNI/K4-Track4-VuThuongTin-2A202602955-Day22/lab_data",
+  "videos": {
+    "video_1": {
+      "frames": 600,
+      "first_frame": "000001.jpg",
+      "last_frame": "000600.jpg",
+      "has_labels": true,
+      "gt_sha256": "2e3ecb488da8886d3200d402b2b08890c6d2879923839444e9b74fa43a551440"
+    },
+    "video_2": {
+      "frames": 1050,
+      "first_frame": "000001.jpg",
+      "last_frame": "001050.jpg",
+      "has_labels": false
+    },
+    "video_3": {
+      "frames": 837,
+      "first_frame": "000001.jpg",
+      "last_frame": "000837.jpg",
+      "has_labels": false
+    },
+    "video_4": {
+      "frames": 900,
+      "first_frame": "000001.jpg",
+      "last_frame": "000900.jpg",
+      "has_labels": false
+    },
+    "video_5": {
+      "frames": 750,
+      "first_frame": "000001.jpg",
+      "last_frame": "000750.jpg",
+      "has_labels": false
+    }
+  },
+  "total_frames": 4137
+}

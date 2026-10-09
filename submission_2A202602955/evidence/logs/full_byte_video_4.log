@@ -1,0 +1,5 @@
+[nạp mô hình] detector=yolo26n.pt imgsz=640 tracker=bytetrack
+
+[video_4] tracker=bytetrack conf=0.3 iou=0.5 -> 900 frame trong 134.2s (6.7 FPS)
+  File nộp bài: runs/nop_bai/video_4.txt
+  Video xem thử: runs/nop_bai/video_4_preview.mp4

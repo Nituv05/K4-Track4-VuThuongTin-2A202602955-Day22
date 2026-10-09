@@ -1,0 +1,17 @@
+{
+  "seq_name": "video_4",
+  "tracker": "bytetrack",
+  "conf": 0.3,
+  "iou": 0.4,
+  "detector": "yolo26n.pt",
+  "imgsz": 640,
+  "class_id": 0,
+  "reid_weights": "osnet_x0_25_msmt17.pt",
+  "device": "cpu",
+  "source": "/Users/tinvu/Downloads/data_lab21/video_4/img1",
+  "frames_processed": 150,
+  "max_frames": 150,
+  "rows": 809,
+  "seconds": 23.42474603652954,
+  "fps": 6.4034845784916365
+}

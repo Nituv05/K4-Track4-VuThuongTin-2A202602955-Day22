@@ -1,0 +1,167 @@
+{
+  "video_1": {
+    "frames_checked": 600,
+    "invalid_images": [],
+    "dimensions": [
+      [
+        1920,
+        1080
+      ]
+    ],
+    "sample_frames": [
+      1,
+      75,
+      150,
+      225,
+      300,
+      375,
+      450,
+      525,
+      600
+    ],
+    "contiguous_names": true,
+    "seconds": 2.65,
+    "source_preview": {
+      "path": "runs/data_review/video_1_source_preview.mp4",
+      "frames": 600,
+      "size": [
+        960,
+        540
+      ],
+      "fps": 30,
+      "fps_from_metadata": true
+    }
+  },
+  "video_2": {
+    "frames_checked": 1050,
+    "invalid_images": [],
+    "dimensions": [
+      [
+        1920,
+        1080
+      ]
+    ],
+    "sample_frames": [
+      1,
+      132,
+      263,
+      394,
+      525,
+      656,
+      787,
+      918,
+      1050
+    ],
+    "contiguous_names": true,
+    "seconds": 5.54,
+    "source_preview": {
+      "path": "runs/data_review/video_2_source_preview.mp4",
+      "frames": 1050,
+      "size": [
+        960,
+        540
+      ],
+      "fps": 20,
+      "fps_from_metadata": false
+    }
+  },
+  "video_3": {
+    "frames_checked": 837,
+    "invalid_images": [],
+    "dimensions": [
+      [
+        640,
+        480
+      ]
+    ],
+    "sample_frames": [
+      1,
+      105,
+      210,
+      314,
+      419,
+      523,
+      628,
+      732,
+      837
+    ],
+    "contiguous_names": true,
+    "seconds": 0.86,
+    "source_preview": {
+      "path": "runs/data_review/video_3_source_preview.mp4",
+      "frames": 837,
+      "size": [
+        640,
+        480
+      ],
+      "fps": 20,
+      "fps_from_metadata": false
+    }
+  },
+  "video_4": {
+    "frames_checked": 900,
+    "invalid_images": [],
+    "dimensions": [
+      [
+        1920,
+        1080
+      ]
+    ],
+    "sample_frames": [
+      1,
+      113,
+      225,
+      338,
+      450,
+      562,
+      675,
+      787,
+      900
+    ],
+    "contiguous_names": true,
+    "seconds": 3.77,
+    "source_preview": {
+      "path": "runs/data_review/video_4_source_preview.mp4",
+      "frames": 900,
+      "size": [
+        960,
+        540
+      ],
+      "fps": 20,
+      "fps_from_metadata": false
+    }
+  },
+  "video_5": {
+    "frames_checked": 750,
+    "invalid_images": [],
+    "dimensions": [
+      [
+        1920,
+        1080
+      ]
+    ],
+    "sample_frames": [
+      1,
+      94,
+      188,
+      281,
+      375,
+      469,
+      562,
+      656,
+      750
+    ],
+    "contiguous_names": true,
+    "seconds": 3.83,
+    "source_preview": {
+      "path": "runs/data_review/video_5_source_preview.mp4",
+      "frames": 750,
+      "size": [
+        960,
+        540
+      ],
+      "fps": 20,
+      "fps_from_metadata": false
+    }
+  }
+}

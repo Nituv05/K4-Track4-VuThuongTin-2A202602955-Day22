@@ -2,6 +2,11 @@ lab_data/
 runs/
 TrackEval/
 *.pt
+*.pt.partial
 __pycache__/
 .ipynb_checkpoints/
 .pytest_cache/
+.venv/
+.offline_wheels/
+.cache/
+.config/

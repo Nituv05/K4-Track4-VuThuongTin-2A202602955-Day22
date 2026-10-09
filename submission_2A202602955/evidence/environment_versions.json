@@ -1,0 +1,16 @@
+{
+  "ultralytics": "8.4.174",
+  "boxmot": "10.0.42",
+  "torch": "2.5.1",
+  "torchvision": "0.20.1",
+  "numpy": "1.26.4",
+  "opencv-python": "4.11.0.86",
+  "scipy": "1.14.1",
+  "matplotlib": "3.11.2",
+  "setuptools": "79.0.1",
+  "pandas": "2.2.3",
+  "lapx": "0.10.0",
+  "filterpy": "1.4.5",
+  "gdown": "6.4.2",
+  "pytest": "9.1.1"
+}
